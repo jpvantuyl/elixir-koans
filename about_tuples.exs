@@ -72,7 +72,7 @@ defmodule About_Tuples do
         # the list [] contains metadatas like the line and module where code is defined
         # the list [1, 2, 3] are arguments passed to the function
         # For more infos see Macros and quote/unquote functions
-        assert unquoted_block == __?
+        assert unquoted_block == {1,2,3}
     end
 
     think "Are tuples enumerables ?" do
